@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.form {
+  margin: 9.3rem auto;
+}
+input[type="email"],
+input[type="password"] {
+  width: 30%;
+  height: 3.5rem;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  transition: width 1s ease-in-out;
+}
+input[type="email"]:hover,
+input[type="password"]:hover {
+  width: 32%;
+}
+input[type="checkbox"] {
+  position: absolute;
+  width: 1.1rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+.form {
+  text-align: center;
+  color: #fff;
+}
+.form h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  animation: heading 1s ease-in-out infinite;
+}
+@keyframes heading {
+  0% {
+    transform: translateY(1rem);
+  }
+  50% {
+    transform: translateY(1.5rem);
+  }
+  100% {
+    transform: translateY(1rem);
+  }
+}
+.form p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.form span {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.form-check-label {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.btn-success {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.form a {
+  font-size: 1.3rem;
+}
+#message {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.btn-primary {
+  font-size: 2rem;
+  width: 15rem;
+}
+.navbar {
+  background-color: #ccd6f6;
+  height: 8rem;
+  padding: 0 10rem;
+  border-bottom: 2px solid dodgerblue;
+}
+.navbar h1 {
+  font-weight: bold;
+  color: #2e3141;
+  font-size: 4rem;
+}
+.navbar a {
+  font-size: 2rem;
+  width: 15rem;
+}
+.alert {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#btn {
+  font-size: 1.5rem;
+  width: 13rem;
+}
+footer {
+  background-color: #2e3141;
+  height: 4rem;
+  margin-top: 18.6rem;
+  border-top: 2px solid dodgerblue;
+}
+footer h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover {
+  color: aquamarine;
+}
